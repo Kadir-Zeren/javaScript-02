@@ -33,3 +33,14 @@ console.log(num3 + 7);
 
 console.log(7 + num3);
 console.log(typeof (7 + num3));
+
+const x = 55;
+const y = 44;
+
+console.log(x - y);
+
+const myNum = "1";
+console.log(x - myNum);
+
+const yourNum = "one";
+console.log(x - yourNum);
