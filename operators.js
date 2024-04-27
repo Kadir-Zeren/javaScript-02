@@ -73,38 +73,48 @@
 
 // console.log(57 / 9);
 
-const mod1 = 57;
-const mod2 = 9;
+// const mod1 = 57;
+// const mod2 = 9;
 
-console.log(mod1 % mod2);
-console.log(22 % 7);
+// console.log(mod1 % mod2);
+// console.log(22 % 7);
 
-const benimSayim = 967;
+// const benimSayim = 967;
 
-const birlerBas = benimSayim % 10;
-console.log(birlerBas);
-const onlarBas = (benimSayim % 100) / 10;
-console.log(onlarBas);
-const yuzlerBas = benimSayim / 100;
-console.log(yuzlerBas);
+// const birlerBas = benimSayim % 10;
+// console.log(birlerBas);
+// const onlarBas = (benimSayim % 100) / 10;
+// console.log(onlarBas);
+// const yuzlerBas = benimSayim / 100;
+// console.log(yuzlerBas);
 
-console.log(
-  `YuzlerBas: ${Math.trunc(yuzlerBas)}, OnlarBas: ${Math.trunc(
-    onlarBas
-  )}, birlerBas: ${birlerBas}`
-);
+// console.log(
+//   `YuzlerBas: ${Math.trunc(yuzlerBas)}, OnlarBas: ${Math.trunc(
+//     onlarBas
+//   )}, birlerBas: ${birlerBas}`
+// );
 
-const hazirSayi = 56.788888;
+// const hazirSayi = 56.788888;
 
-console.log(`hazirSayi of Circle: ${hazirSayi.toFixed(3)}`);
-console.log(`hazirSayi of Circle: ${Math.floor(hazirSayi)}`);
-console.log(`hazirSayi of Circle: ${Math.ceil(hazirSayi)}`);
-console.log(`hazirSayi of Circle: ${Math.trunc(hazirSayi)}`);
-console.log(`hazirSayi of Circle: ${Math.round(hazirSayi)}`);
+// console.log(`hazirSayi of Circle: ${hazirSayi.toFixed(3)}`);
+// console.log(`hazirSayi of Circle: ${Math.floor(hazirSayi)}`);
+// console.log(`hazirSayi of Circle: ${Math.ceil(hazirSayi)}`);
+// console.log(`hazirSayi of Circle: ${Math.trunc(hazirSayi)}`);
+// console.log(`hazirSayi of Circle: ${Math.round(hazirSayi)}`);
 
-const randomNum = Math.random();
-console.log(randomNum);
+// const randomNum = Math.random();
+// console.log(randomNum);
 
-const randomNum2 = Math.random() * 10;
-console.log(randomNum2);
-console.log(Math.round(Math.random() * 10));
+// const randomNum2 = Math.random() * 10;
+// console.log(randomNum2);
+// console.log(Math.round(Math.random() * 10));
+
+const us1 = 2;
+const us2 = 3;
+console.log(us1 ** us2);
+
+const pi = 3.14;
+const yariCap = 9;
+
+const alan = pi * yariCap ** 2;
+console.log(alan);
