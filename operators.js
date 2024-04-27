@@ -109,12 +109,41 @@
 // console.log(randomNum2);
 // console.log(Math.round(Math.random() * 10));
 
-const us1 = 2;
-const us2 = 3;
-console.log(us1 ** us2);
+// const us1 = 2;
+// const us2 = 3;
+// console.log(us1 ** us2);
 
-const pi = 3.14;
-const yariCap = 9;
+// const pi = 3.14;
+// const yariCap = 9;
 
-const alan = pi * yariCap ** 2;
-console.log(alan);
+// const alan = pi * yariCap ** 2;
+// console.log(alan);
+
+// let number1 = 6;
+// let number1New = number1++;
+
+// console.log(number1New);
+// console.log(number1New);
+// console.log(number1);
+// console.log(number1New);
+
+// let newSayi = ++number1;
+// console.log(newSayi);
+// console.log(--newSayi);
+// console.log(newSayi--);
+
+let nums1 = 14;
+let nums2 = 17;
+
+// nums2 = nums2 + nums1;
+nums2 += nums1;
+console.log(nums2);
+
+let num14 = 6;
+let num15 = 3;
+
+// num14 -= num15;
+// console.log(num14);
+
+num14 *= num15;
+console.log(num14);
